@@ -1,0 +1,5 @@
+{
+    "module_name": "glassdoor",
+    "website": "http://www.glassdoor.com/api/index.htm",
+    "tag": "<a href='http://www.glassdoor.com/index.htm'>powered by <img src='http://www.glassdoor.com/static/img/api/glassdoor_logo_80.png' title='Job Search' /></a>"
+}
