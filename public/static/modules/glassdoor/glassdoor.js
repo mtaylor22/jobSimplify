@@ -1,4 +1,3 @@
-var http = require('http');
 var keys = require('../keys').keys;
 var request = require('request');
 module.exports = {
