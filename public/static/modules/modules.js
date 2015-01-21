@@ -4,7 +4,7 @@
 var modules = {};
 var loaded = false;
 module.exports = {
-    installed: ['indeed', 'dice'],
+    installed: ['indeed', 'dice', 'simplyhired'],
     modules: {},
     load: function(){
         this.installed.forEach(function(mod){
