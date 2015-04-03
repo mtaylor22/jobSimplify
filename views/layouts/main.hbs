@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>jobSimplify</title>
+    <meta name="description" content="jobSimplify">
+    <meta name="author" content="Mitchell Taylor">
+
+    <link rel="stylesheet" href="/stylesheets/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <h1>Items</h1>
+    <div id="items-container">
+        <input type="text" placeholder="item" name="item-post" id="item-post">
+        <input type="text" placeholder="desc" name="desc-post" id="desc-post">
+        <input type="submit" value="submit" name="submit" id="submit">
+        <div id="items">
+
+        </div>
+    </div>
+    <div id="container">
+        <div id="inner">
+            <input type="text" placeholder="Company Name" id="company">
+            <input type="text" placeholder="Job Title" id="job_title">
+            <input type="text" value="Hiring Manager" id="hiring_manager" name="hiring_manager">
+            <input type="text" placeholder="Source" id="source">
+            <ul id="items-sortable"></ul>
+            <input type="submit" value="generate" name="generate" id="generate">
+
+        </div>
+    </div>
+
+    <div id="transparency">
+        <div id="desc">Example description of an item would go here</div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script src="/javascripts/main.js"></script>
+</body>
+</html>
